@@ -1,0 +1,31 @@
+{
+  "name": "sharedb-server-query",
+  "version": "0.1.0",
+  "description": "ShareDB server-query plugin",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "coffee -bo . .",
+    "postpublish": "git push"
+  },
+  "author": "Alexey Balekhov <a@balek.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balek/sharedb-server-query.git"
+  },
+  "keywords": [
+    "sharedb",
+    "plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/balek/sharedb-server-query/issues"
+  },
+  "homepage": "https://github.com/balek/sharedb-server-query",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "coffeelint": "^2.1.0",
+    "coffeescript": "^2.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-coffeescript": "^1.0.0"
+  }
+}
